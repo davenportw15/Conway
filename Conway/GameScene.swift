@@ -9,32 +9,65 @@
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    let x: Int = 30
+    let y: Int = 30
+    let delay: Double = 0.25
+    
+    var cells: [[SKShapeNode]] = []
+    var state: State!
+    
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!"
-        myLabel.fontSize = 45
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
+        let filledPoints = [
+            (13, 11),
+            (14, 12),
+            (12, 12),
+            (12, 13),
+            (14, 13),
+            (13, 13),
+            (13, 14)
+        ]
+        self.state = State(x: self.x, y: self.y, withFilledPoints: filledPoints)
+        populateNodes()
         
-        self.addChild(myLabel)
+        let updateConway = SKAction.sequence([
+            SKAction.runBlock { self.drawConway() },
+            SKAction.waitForDuration(self.delay),
+            SKAction.runBlock { self.state = self.state.next() }
+        ])
+        self.runAction(SKAction.repeatActionForever(updateConway))
     }
     
-    override func mouseDown(theEvent: NSEvent) {
-        /* Called when a mouse click occurs */
+    private func populateNodes() {
+        let cellWidth  = self.frame.width / CGFloat(self.x)
+        let cellHeight = self.frame.height / CGFloat(self.y)
         
-        let location = theEvent.locationInNode(self)
-        
-        let sprite = SKSpriteNode(imageNamed:"Spaceship")
-        sprite.position = location;
-        sprite.setScale(0.5)
-        
-        let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-        sprite.runAction(SKAction.repeatActionForever(action))
-        
-        self.addChild(sprite)
+        for y in 0 ..< self.y {
+            self.cells.append([])
+            for x in 0 ..< self.x {
+                let rectangle = CGRect(
+                    x: CGFloat(x) * cellWidth,
+                    y: CGFloat(y) * cellHeight,
+                    width: cellWidth,
+                    height: cellHeight
+                )
+                let node = SKShapeNode(rect: rectangle)
+                node.fillColor = SKColor.whiteColor()
+                self.cells[y].append(node)
+                self.addChild(node)
+            }
+        }
     }
     
-    override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
+    private func drawConway() {
+        for y in 0 ..< self.y {
+            for x in 0 ..< self.x {
+                let cell = self.state[x, y]
+                let color = cell == State.Cell.Filled ? SKColor.blueColor() : SKColor.whiteColor()
+                
+                let node = self.cells[y][x]
+                node.fillColor = color
+            }
+        }
     }
 }

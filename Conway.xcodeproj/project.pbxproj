@@ -13,6 +13,7 @@
 		3D08E8111D1E272700FB9F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D08E8101D1E272700FB9F31 /* Assets.xcassets */; };
 		3D08E8141D1E272700FB9F31 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D08E8121D1E272700FB9F31 /* MainMenu.xib */; };
 		3D08E81F1D1E272700FB9F31 /* ConwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D08E81E1D1E272700FB9F31 /* ConwayTests.swift */; };
+		3D08E82A1D1E274600FB9F31 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D08E8291D1E274600FB9F31 /* State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3D08E81A1D1E272700FB9F31 /* ConwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConwayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D08E81E1D1E272700FB9F31 /* ConwayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConwayTests.swift; sourceTree = "<group>"; };
 		3D08E8201D1E272700FB9F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D08E8291D1E274600FB9F31 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				3D08E80A1D1E272700FB9F31 /* AppDelegate.swift */,
 				3D08E80C1D1E272700FB9F31 /* GameScene.swift */,
 				3D08E80E1D1E272700FB9F31 /* GameScene.sks */,
+				3D08E8291D1E274600FB9F31 /* State.swift */,
 				3D08E8101D1E272700FB9F31 /* Assets.xcassets */,
 				3D08E8121D1E272700FB9F31 /* MainMenu.xib */,
 				3D08E8151D1E272700FB9F31 /* Info.plist */,
@@ -199,6 +202,7 @@
 			files = (
 				3D08E80D1D1E272700FB9F31 /* GameScene.swift in Sources */,
 				3D08E80B1D1E272700FB9F31 /* AppDelegate.swift in Sources */,
+				3D08E82A1D1E274600FB9F31 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
