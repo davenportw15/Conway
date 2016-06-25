@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D08E80B1D1E272700FB9F31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D08E80A1D1E272700FB9F31 /* AppDelegate.swift */; };
+		3D08E80D1D1E272700FB9F31 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D08E80C1D1E272700FB9F31 /* GameScene.swift */; };
+		3D08E80F1D1E272700FB9F31 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3D08E80E1D1E272700FB9F31 /* GameScene.sks */; };
+		3D08E8111D1E272700FB9F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D08E8101D1E272700FB9F31 /* Assets.xcassets */; };
+		3D08E8141D1E272700FB9F31 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D08E8121D1E272700FB9F31 /* MainMenu.xib */; };
+		3D08E81F1D1E272700FB9F31 /* ConwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D08E81E1D1E272700FB9F31 /* ConwayTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D08E81B1D1E272700FB9F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D08E7FF1D1E272700FB9F31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D08E8061D1E272700FB9F31;
+			remoteInfo = Conway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D08E8071D1E272700FB9F31 /* Conway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D08E80A1D1E272700FB9F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D08E80C1D1E272700FB9F31 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3D08E80E1D1E272700FB9F31 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3D08E8101D1E272700FB9F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D08E8131D1E272700FB9F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3D08E8151D1E272700FB9F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D08E81A1D1E272700FB9F31 /* ConwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConwayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D08E81E1D1E272700FB9F31 /* ConwayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConwayTests.swift; sourceTree = "<group>"; };
+		3D08E8201D1E272700FB9F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D08E8041D1E272700FB9F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D08E8171D1E272700FB9F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D08E7FE1D1E272700FB9F31 = {
+			isa = PBXGroup;
+			children = (
+				3D08E8091D1E272700FB9F31 /* Conway */,
+				3D08E81D1D1E272700FB9F31 /* ConwayTests */,
+				3D08E8081D1E272700FB9F31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D08E8081D1E272700FB9F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D08E8071D1E272700FB9F31 /* Conway.app */,
+				3D08E81A1D1E272700FB9F31 /* ConwayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D08E8091D1E272700FB9F31 /* Conway */ = {
+			isa = PBXGroup;
+			children = (
+				3D08E80A1D1E272700FB9F31 /* AppDelegate.swift */,
+				3D08E80C1D1E272700FB9F31 /* GameScene.swift */,
+				3D08E80E1D1E272700FB9F31 /* GameScene.sks */,
+				3D08E8101D1E272700FB9F31 /* Assets.xcassets */,
+				3D08E8121D1E272700FB9F31 /* MainMenu.xib */,
+				3D08E8151D1E272700FB9F31 /* Info.plist */,
+			);
+			path = Conway;
+			sourceTree = "<group>";
+		};
+		3D08E81D1D1E272700FB9F31 /* ConwayTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D08E81E1D1E272700FB9F31 /* ConwayTests.swift */,
+				3D08E8201D1E272700FB9F31 /* Info.plist */,
+			);
+			path = ConwayTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D08E8061D1E272700FB9F31 /* Conway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D08E8231D1E272700FB9F31 /* Build configuration list for PBXNativeTarget "Conway" */;
+			buildPhases = (
+				3D08E8031D1E272700FB9F31 /* Sources */,
+				3D08E8041D1E272700FB9F31 /* Frameworks */,
+				3D08E8051D1E272700FB9F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conway;
+			productName = Conway;
+			productReference = 3D08E8071D1E272700FB9F31 /* Conway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D08E8191D1E272700FB9F31 /* ConwayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D08E8261D1E272700FB9F31 /* Build configuration list for PBXNativeTarget "ConwayTests" */;
+			buildPhases = (
+				3D08E8161D1E272700FB9F31 /* Sources */,
+				3D08E8171D1E272700FB9F31 /* Frameworks */,
+				3D08E8181D1E272700FB9F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D08E81C1D1E272700FB9F31 /* PBXTargetDependency */,
+			);
+			name = ConwayTests;
+			productName = ConwayTests;
+			productReference = 3D08E81A1D1E272700FB9F31 /* ConwayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D08E7FF1D1E272700FB9F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "William Davenport";
+				TargetAttributes = {
+					3D08E8061D1E272700FB9F31 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3D08E8191D1E272700FB9F31 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3D08E8061D1E272700FB9F31;
+					};
+				};
+			};
+			buildConfigurationList = 3D08E8021D1E272700FB9F31 /* Build configuration list for PBXProject "Conway" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D08E7FE1D1E272700FB9F31;
+			productRefGroup = 3D08E8081D1E272700FB9F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D08E8061D1E272700FB9F31 /* Conway */,
+				3D08E8191D1E272700FB9F31 /* ConwayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D08E8051D1E272700FB9F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D08E8111D1E272700FB9F31 /* Assets.xcassets in Resources */,
+				3D08E80F1D1E272700FB9F31 /* GameScene.sks in Resources */,
+				3D08E8141D1E272700FB9F31 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D08E8181D1E272700FB9F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D08E8031D1E272700FB9F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D08E80D1D1E272700FB9F31 /* GameScene.swift in Sources */,
+				3D08E80B1D1E272700FB9F31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D08E8161D1E272700FB9F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D08E81F1D1E272700FB9F31 /* ConwayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D08E81C1D1E272700FB9F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D08E8061D1E272700FB9F31 /* Conway */;
+			targetProxy = 3D08E81B1D1E272700FB9F31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D08E8121D1E272700FB9F31 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D08E8131D1E272700FB9F31 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D08E8211D1E272700FB9F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D08E8221D1E272700FB9F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D08E8241D1E272700FB9F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Conway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.davenportw15.Conway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D08E8251D1E272700FB9F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Conway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.davenportw15.Conway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D08E8271D1E272700FB9F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ConwayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.davenportw15.ConwayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conway.app/Contents/MacOS/Conway";
+			};
+			name = Debug;
+		};
+		3D08E8281D1E272700FB9F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ConwayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.davenportw15.ConwayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conway.app/Contents/MacOS/Conway";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D08E8021D1E272700FB9F31 /* Build configuration list for PBXProject "Conway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D08E8211D1E272700FB9F31 /* Debug */,
+				3D08E8221D1E272700FB9F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D08E8231D1E272700FB9F31 /* Build configuration list for PBXNativeTarget "Conway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D08E8241D1E272700FB9F31 /* Debug */,
+				3D08E8251D1E272700FB9F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D08E8261D1E272700FB9F31 /* Build configuration list for PBXNativeTarget "ConwayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D08E8271D1E272700FB9F31 /* Debug */,
+				3D08E8281D1E272700FB9F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D08E7FF1D1E272700FB9F31 /* Project object */;
+}
